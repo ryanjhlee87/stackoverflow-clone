@@ -4,9 +4,6 @@ import React from 'react';
 import {
   Sheet,
   SheetContent,
-  SheetDescription,
-  SheetHeader,
-  SheetTitle,
   SheetTrigger,
   SheetClose,
 } from '@/components/ui/sheet';
@@ -82,7 +79,7 @@ const MobileNav = () => {
           </p>
         </Link>
 
-        <div>
+        <div className="flex h-full flex-col justify-between pb-16">
           <SheetClose asChild>
             <NavContent />
           </SheetClose>

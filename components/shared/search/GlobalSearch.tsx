@@ -1,3 +1,5 @@
+'use client';
+
 import Image from 'next/image';
 import React from 'react';
 import { Input } from '@/components/ui/input';
@@ -19,6 +21,7 @@ const GlobalSearch = () => {
           type="text"
           placeholder="Search DevOverflow"
           value=""
+          onChange={() => {}}
         />
       </div>
     </div>
